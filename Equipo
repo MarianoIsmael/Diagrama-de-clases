@@ -1,0 +1,51 @@
+class EQUIPO {
+  motor: MOTOR;
+  bomba: BOMBA;
+  kitMangueras: KITMANGUERAS;
+
+  constructor(motor: MOTOR, bomba: BOMBA, kitMangueras: KITMANGUERAS) {
+    this.motor = motor;
+    this.bomba = bomba;
+    this.kitMangueras = kitMangueras;
+  }
+}
+
+class MOTOR {
+  // Propiedades y métodos del motor
+}
+
+class BOMBA {
+  // Propiedades y métodos de la bomba
+}
+
+class KITMANGUERAS {
+  // Propiedades y métodos del kit de mangueras
+}
+
+class EQUIPO {
+  motor: MOTOR;
+
+  constructor(motor: MOTOR) {
+    this.motor = motor;
+  }
+}
+
+class MOTOR {
+  // Propiedades y métodos del motor
+}
+
+class M_COMBUSTIBLE extends MOTOR {
+  // Propiedades y métodos del motor de combustión
+}
+
+class M_ELECTRICO extends MOTOR {
+  // Propiedades y métodos del motor eléctrico
+}
+
+class BOMBA {
+  // Propiedades y métodos de la bomba
+}
+
+class KITMANGUERAS {
+  // Propiedades y métodos del kit de mangueras
+}
